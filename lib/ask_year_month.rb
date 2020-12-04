@@ -1,5 +1,9 @@
-require "ask_year_month/railtie"
+# Your code goes here...
+if defined?(Rails::Railtie)
+  require 'ask_year_month/railtie'
+else
+  raise 'Error.'
+end
 
 module AskYearMonth
-  # Your code goes here...
 end
