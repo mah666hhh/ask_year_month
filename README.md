@@ -15,6 +15,9 @@ DateTime.parse('2020-12-05').month == 12
 DateTime.parse('2020-12-05').december?
 #=> true
 ```
+## Methods
+
+https://github.com/mah666hhh/ask_year_month/blob/main/lib/ask_year_month/month_name_helper.rb
 
 ## Usage
 How to use my plugin.
