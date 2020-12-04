@@ -1,12 +1,12 @@
 # AskYearMonth
-You can simply check **what month, what year** it is by the name of the month and year.(Year is not implemented. coming soon...)
+You can simply check **what month, what year** it is by the name of the month and year.
+(Year is not implemented. coming soon...)
 
-This Gem was extend Date, DateTime, Time, ActiveSupport::TimeWithZone.
+This Gem was extend [Date, DateTime, Time, ActiveSupport::TimeWithZone].
 
 ## example
 
 ```
-
 # Not beautiful...
 DateTime.parse('2020-12-05').month == 12
 #=> true
@@ -14,7 +14,6 @@ DateTime.parse('2020-12-05').month == 12
 # It's beautiful!
 DateTime.parse('2020-12-05').december?
 #=> true
-
 ```
 
 ## Usage
