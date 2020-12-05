@@ -1,4 +1,13 @@
 # AskYearMonth
+
+レシーバが何月なのか、
+
+月名からスマートに確認できるようになります。
+
+Date, DateTime, Time, ActiveSupport::TimeWithZoneクラスを拡張しています。
+
+<br>
+
 You can simply check **what month, what year** it is by the name of the month and year.
 <br>
 (Year is not implemented. coming soon...)
