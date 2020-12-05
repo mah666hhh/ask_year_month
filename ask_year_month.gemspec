@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.email       = ["mah666hhh@gmail.com"]
   spec.homepage    = "https://github.com/mah666hhh/ask_year_month"
   spec.summary     = "Get the name of the month."
-  spec.description = "You can simply check **what month, what year** it is by the name of the month and year.<br>(Year is not implemented. coming soon...) This Gem was extend [Date, DateTime, Time, ActiveSupport::TimeWithZone] [Show on GitHub](https://github.com/mah666hhh/ask_year_month)"
+  spec.description = "You can simply check **what month, what year** it is by the name of the month and year.\n(Year is not implemented. coming soon...)\n\nThis Gem was extend [Date, DateTime, Time, ActiveSupport::TimeWithZone]\n\nShow on GitHub↓\nhttps://github.com/mah666hhh/ask_year_month"
   spec.license     = "MIT"
 
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
